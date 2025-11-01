@@ -24,7 +24,7 @@ const options = {
     base64_encoded: 'false'
   },
   headers: {
-    'x-rapidapi-key': '381180259bmshe3e90a39c230acep14898bjsn36cdc5139329',
+    'x-rapidapi-key': process.env.JUDGE0_KEY,
     'x-rapidapi-host': 'judge0-ce.p.rapidapi.com',
     'Content-Type': 'application/json'
   },
@@ -66,7 +66,7 @@ const options = {
     fields: '*'
   },
   headers: {
-    'x-rapidapi-key': '381180259bmshe3e90a39c230acep14898bjsn36cdc5139329',
+    'x-rapidapi-key': process.env.JUDGE0_KEY,
     'x-rapidapi-host': 'judge0-ce.p.rapidapi.com'
   }
 };
