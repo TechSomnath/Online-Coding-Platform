@@ -71,6 +71,11 @@ function Homepage() {
               <li>
                 <button onClick={handleLogout}>Logout</button>
               </li>
+              {user.role == "admin" && (
+                <li>
+                  <NavLink to="/admin">Admin</NavLink>
+                </li>
+              )}
             </ul>
           </div>
         </div>
